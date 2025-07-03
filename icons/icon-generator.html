@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bluesky Feed Filter Icon Generator</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+        }
+        
+        .icon-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        
+        .icon {
+            background: #1DA1F2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            font-weight: bold;
+            color: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            position: relative;
+        }
+        
+        .icon-128 {
+            width: 128px;
+            height: 128px;
+            font-size: 48px;
+        }
+        
+        .icon-48 {
+            width: 48px;
+            height: 48px;
+            font-size: 18px;
+        }
+        
+        .icon-32 {
+            width: 32px;
+            height: 32px;
+            font-size: 12px;
+        }
+        
+        .icon-16 {
+            width: 16px;
+            height: 16px;
+            font-size: 8px;
+        }
+        
+        .label {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .icon-group {
+            text-align: center;
+        }
+        
+        .instructions {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .filter-icon {
+            position: relative;
+        }
+        
+        .filter-icon::before {
+            content: '';
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            width: 50%;
+            height: 50%;
+            background: white;
+            clip-path: polygon(20% 0%, 80% 0%, 80% 20%, 60% 40%, 60% 100%, 40% 100%, 40% 40%, 20% 20%);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            color: #555;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🐦 Bluesky Feed Filter - Icon Generator</h1>
+    
+    <div class="instructions">
+        <h2>Instructions:</h2>
+        <p>1. Right-click on each icon below and select "Save image as..." or take a screenshot</p>
+        <p>2. Save them with the exact filenames: icon-128.png, icon-48.png, icon-32.png, icon-16.png</p>
+        <p>3. Place the files in the icons/ directory of your extension</p>
+        <p>4. Reload the extension in Firefox to see the new icons</p>
+    </div>
+    
+    <h2>Option 1: Text-Based Icons (BS)</h2>
+    <div class="icon-container">
+        <div class="icon-group">
+            <div class="icon icon-128">BS</div>
+            <div class="label">128x128 (icon-128.png)</div>
+        </div>
+        <div class="icon-group">
+            <div class="icon icon-48">BS</div>
+            <div class="label">48x48 (icon-48.png)</div>
+        </div>
+        <div class="icon-group">
+            <div class="icon icon-32">BS</div>
+            <div class="label">32x32 (icon-32.png)</div>
+        </div>
+        <div class="icon-group">
+            <div class="icon icon-16">BS</div>
+            <div class="label">16x16 (icon-16.png)</div>
+        </div>
+    </div>
+    
+    <h2>Option 2: Filter Symbol Icons</h2>
+    <div class="icon-container">
+        <div class="icon-group">
+            <div class="icon icon-128 filter-icon"></div>
+            <div class="label">128x128 (icon-128.png)</div>
+        </div>
+        <div class="icon-group">
+            <div class="icon icon-48 filter-icon"></div>
+            <div class="label">48x48 (icon-48.png)</div>
+        </div>
+        <div class="icon-group">
+            <div class="icon icon-32 filter-icon"></div>
+            <div class="label">32x32 (icon-32.png)</div>
+        </div>
+        <div class="icon-group">
+            <div class="icon icon-16 filter-icon"></div>
+            <div class="label">16x16 (icon-16.png)</div>
+        </div>
+    </div>
+    
+    <h2>Option 3: Emoji Icons</h2>
+    <div class="icon-container">
+        <div class="icon-group">
+            <div class="icon icon-128">🐦</div>
+            <div class="label">128x128 (icon-128.png)</div>
+        </div>
+        <div class="icon-group">
+            <div class="icon icon-48">🐦</div>
+            <div class="label">48x48 (icon-48.png)</div>
+        </div>
+        <div class="icon-group">
+            <div class="icon icon-32">🐦</div>
+            <div class="label">32x32 (icon-32.png)</div>
+        </div>
+        <div class="icon-group">
+            <div class="icon icon-16">🐦</div>
+            <div class="label">16x16 (icon-16.png)</div>
+        </div>
+    </div>
+    
+    <div class="instructions">
+        <h2>Alternative Methods:</h2>
+        <p><strong>Online Tools:</strong></p>
+        <ul>
+            <li><a href="https://favicon.io/favicon-generator/" target="_blank">Favicon.io</a> - Generate text-based icons</li>
+            <li><a href="https://www.canva.com" target="_blank">Canva</a> - Create custom designs</li>
+            <li><a href="https://www.figma.com" target="_blank">Figma</a> - Professional design tool</li>
+        </ul>
+        <p><strong>Desktop Tools:</strong></p>
+        <ul>
+            <li>GIMP (Free) - Advanced image editing</li>
+            <li>Paint.NET (Free) - Simple image editing</li>
+            <li>Even MS Paint works for simple designs</li>
+        </ul>
+    </div>
+</body>
+</html>

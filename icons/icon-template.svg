@@ -1,0 +1,15 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue background with rounded corners -->
+  <rect width="128" height="128" fill="#1DA1F2" rx="12"/>
+  
+  <!-- White filter/funnel icon -->
+  <path d="M32 20 L96 20 L96 30 L80 50 L80 90 L70 100 L58 100 L48 90 L48 50 L32 30 Z" fill="white" opacity="0.9"/>
+  
+  <!-- Filter lines -->
+  <line x1="40" y1="35" x2="88" y2="35" stroke="white" stroke-width="2"/>
+  <line x1="45" y1="42" x2="83" y2="42" stroke="white" stroke-width="2"/>
+  <line x1="52" y1="49" x2="76" y2="49" stroke="white" stroke-width="2"/>
+  
+  <!-- Text "BS" alternative (comment out filter above and uncomment below) -->
+  <!-- <text x="64" y="80" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="48" font-weight="bold">BS</text> -->
+</svg>
